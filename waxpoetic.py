@@ -7,4 +7,23 @@ prepositions = ['against', 'after', 'into', 'beneath', 'upon', 'for', 'in', 'lik
 adverbs = ['curiously', 'extravagantly', 'tantalizingly', 'furiously', 'sensuously']
 
 noun1 = random.choice(nouns)
-print noun1
+noun2 = random.choice(nouns)
+noun3 = random.choice(nouns)
+
+verb1 = random.choice(verbs)
+verb2 = random.choice(verbs)
+verb3 = random.choice(verbs)
+
+adjective1 = random.choice(adjectives)
+adjective2 = random.choice(adjectives)
+adjective3 = random.choice(adjectives)
+
+preposition1 = random.choice(prepositions)
+preposition2 = random.choice(prepositions)
+
+adverb1 = random.choice(adverbs)
+
+structure = "{adjective1} {noun1} {verb1} {preposition1} the {adjective2} {noun2} {adverb1}, the {noun1} {verb2} the {noun2} {verb3} {preposition2} a {adjective3} {noun3}".format(noun1 = random.choice(nouns), noun2 = random.choice(nouns), noun3 = random.choice(nouns), verb1 = random.choice(verbs), verb2 = random.choice(verbs), verb3 = random.choice(verbs), adjective1 = random.choice(adjectives), adjective2 = random.choice(adjectives), adjective3 = random.choice(adjectives), preposition1 = random.choice(prepositions), preposition2 = random.choice(prepositions), adverb1 = random.choice(adverbs))
+
+print structure
+
