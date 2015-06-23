@@ -1,7 +1,5 @@
 #!/usr/bin/python
+with open("hello.txt", "r")as my_input_file:
+	for line in my_input_file:
+		print line,
 
-my_input_file = open("hello.txt", "r")
-input_file = my_input_file.readlines()
-for lines in input_file:
-	print lines,
-my_input_file.close()
