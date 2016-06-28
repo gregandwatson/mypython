@@ -1,0 +1,10 @@
+#!/usr/bin/python
+easy_pace = 495
+tempo = 432
+
+total_easy = 2 * 495
+total_tempo = 3 * 432
+total_time_sec = total_easy + total_tempo
+total_tempo_minutes = total_time_sec / 60
+
+print(total_tempo_minutes)
