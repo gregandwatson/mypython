@@ -1,7 +1,10 @@
 #!/usr/bin/python
 
-from random import randint
+import random
+for i in range(15):
+    x = random.random()
+    print x
 
-print randint(0,100000)
-print randint(0,1)
-print randint(0,1)
+for ran_num in range(20):
+    y = random.randint(5, 25)
+    print y
