@@ -15,3 +15,6 @@ ages = newdic.items()
 print ages
 print sorted(ages)
 print newdic
+print newdic.items()
+newerdic = newdic.items()
+print newerdic
